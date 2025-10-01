@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNCP Navigate - Find Your Way Around Campus</title>
+    <meta name="description" content="Navigate the University of North Carolina at Pembroke campus with ease. Find buildings, departments, and locations.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">UNCP Navigate 🦅</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section with Background Image and Search -->
+        <section class="hero">
+            <div class="hero-background">
+                <!-- Background image placeholder - replace with actual campus photo -->
+                <div class="hero-image-placeholder"></div>
+                
+                <!-- Hero Content Overlay -->
+                <div class="hero-overlay">
+                    <div class="hero-content">
+                        <h2 class="hero-title">Welcome to UNCP Campus</h2>
+                        <p class="hero-subtitle">Find Your Way Around Campus</p>
+                        
+                        <!-- Hero Search Bar -->
+                        <div class="hero-search">
+                            <div class="search-container">
+                                <input 
+                                    type="text" 
+                                    id="heroSearchInput" 
+                                    class="search-input" 
+                                    placeholder="Search for buildings, departments, or locations..."
+                                    aria-label="Search campus locations"
+                                >
+                                <button 
+                                    type="button" 
+                                    id="heroSearchBtn" 
+                                    class="search-btn"
+                                    aria-label="Search"
+                                >
+                                    Search
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="results-section">
+            <div class="container">
+                <h3 class="results-title">Campus Locations</h3>
+                <!-- Results container - will be populated dynamically -->
+                <div id="results" class="results-grid">
+                    <!-- Building cards will be inserted here via JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                © 2025 University of North Carolina at Pembroke | 
+                <a href="#" class="footer-link">Campus Map</a> | 
+                <a href="#" class="footer-link">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
